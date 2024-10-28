@@ -567,13 +567,17 @@ body:not(.user-is-tabbing) a:focus {
     text-align: justify;
 }
 
-
 ion-icon[name=copy-outline] {
     font-size: 30px;
     cursor: pointer;
     transform: translateY(30%) translateX(10%);
 }
 
+ion-icon[name=download-outline] {
+    font-size: 30px;
+    cursor: pointer;
+    transform: translateY(30%) translateX(10%);
+}
 
 @media(min-width: 901px) {
     .about__text {
