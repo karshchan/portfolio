@@ -563,6 +563,7 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.17);
 }
 
+
 .about__text {
     text-align: justify;
 }
