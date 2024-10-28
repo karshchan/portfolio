@@ -428,7 +428,7 @@ body:not(.user-is-tabbing) a:focus {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
 }
 
 @media(max-width: 500px) {
@@ -553,14 +553,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-.about__photo-container {
+.about-container {
     margin-bottom: var(--gutter-normal);
-}
-
-.about__photo {
-    border-radius: 50%;
-    margin-left: var(--gutter-huge);
-    transform: scale(1.17);
+    padding-left: var(--gutter-normal);
+    width: 100%;
+    text-align: justify;
 }
 
 
