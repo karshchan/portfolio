@@ -558,12 +558,14 @@ body:not(.user-is-tabbing) a:focus {
     padding-left: var(--gutter-normal);
     width: 100%;
     text-align: justify;
+    transform: translateY(-50%) translateX(10%);
 }
 
 
 .about__text {
     text-align: justify;
 }
+
 
 ion-icon[name=copy-outline] {
     font-size: 30px;
